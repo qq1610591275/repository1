@@ -8,4 +8,5 @@ test git conflic --modefy by tehe second people
 Git tracks changes.
 
 test is now ---modifyed by the first people
+//多次提交测试
 
