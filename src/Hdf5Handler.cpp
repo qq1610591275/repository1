@@ -150,6 +150,7 @@ std::map<int, Material *> Hdf5Handler::readMGXSFromFile(std::string filename)
     }
   }
   return _materials;
+  // test rebase 1
 }
 
 
@@ -163,7 +164,7 @@ Material *Hdf5Handler::findMaterial(int mat_id) {
 	if (_materials.find(mat_id) == _materials.end())
 		log_printf(ERROR, "can't find the material that id is %d", mat_id);
 	return _materials.at(mat_id);
-	// test ceshi hahhaa 
+	// test rebase 2
 }
 
 
