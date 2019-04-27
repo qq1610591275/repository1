@@ -159,6 +159,7 @@ std::map<int, Material *> Hdf5Handler::readMGXSFromFile(std::string filename)
   * @return 返回找到的材料
   */
 Material *Hdf5Handler::findMaterial(int mat_id) {
+	// 第二个人添加的注释
 	if (_materials.find(mat_id) == _materials.end())
 		log_printf(ERROR, "can't find the material that id is %d", mat_id);
 	return _materials.at(mat_id);
